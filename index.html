@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<h1 id="title">freeCodeCamp Survey Form</h1>
+<p id="description">Thank you dear freecodecamp platform for helping me to improve myself</p>
+
+<body>
+  <form id="survey-form">
+    <label id="name-label"  >Name 
+    <input id="name" type="text" placeholder="Enter your name" required/>
+  </label>
+    <label id="email-label">Email
+    <input id="email" type="email" required placeholder="Enter your email"/> 
+    </label>
+    <label id="number-label">Age
+     <input id="number" type="number" min="13" max="120"  placeholder="Age" required/>
+   </label>
+   <label for="referrer"
+   >Please select your favorite Web language
+   <select id="referrer" name="referrer">
+     <option value="">(select one)</option>
+     <option value="1">javascript</option>
+     <option value="2">Java</option>
+     <option value="3">React</option>
+     <option value="4">Other</option>
+   </select>
+ </label>
+    
+    <fieldset>
+        <p class="gest">if you dont mind choose one of theese boxes</p>
+        <label for="personal-account"
+          ><input
+            id="personal-account"
+            type="radio"
+            name="account-type"
+            class="inline"
+          />
+          i have a car</label
+        >
+        <label for="business-account"
+          ><input
+            id="business-account"
+            type="radio"
+            name="account-type"
+            class="inline"
+          />
+         i have a bike</label
+        >
+        <label for="business-account"
+        ><input
+          id="business-account"
+          type="radio"
+          name="account-type"
+          class="inline"
+        />
+       i have books... :)</label
+      >
+      </fieldset>
+
+
+  <br></br>
+   <label for="bio"
+          >Provide a bio:
+          <textarea
+            id="bio"
+            name="bio"
+            rows="3"
+            cols="30"
+            placeholder="I like coding on the balcony..."
+          ></textarea>
+        </label>
+<br></br>
+<input id="submit" type="submit" value="Submit"/>
+  </form>
+</body>
+
+</html>
+
+thx  freecodecamp if i start to earn money one day. i will donate to u.
